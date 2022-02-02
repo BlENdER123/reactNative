@@ -1,12 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import MainStack from "./navigation";
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <MainStack/>
+
+    // <View style={styles.container}>
+
+    //   <View>
+    //     <Text>Title</Text>
+    //     <Text>Main Text</Text>
+    //     <View>
+    //       <Text>Navigation</Text> 
+    //       {/* <Text>Navigation</Text>  поменять на нормальную форму */}
+    //     </View>
+    //   </View>
+
+      
+    // </View>
   );
 }
 
